@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(182, 204, 224, 0.9);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}  
+
+
+#survey-form{
+        display: block;
+        padding: 20px;
+        margin: 20px;
+        text-align: left;
+        
+}
+.container{
+    background-image: url("https://i.ibb.co/VqdZny5/bill-jelen-xb58-P14h-Thc-unsplash.jpg");
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    background-repeat: round;
+    
+
+}
+
+input {
+    
+    caret-color: rgba(240, 12, 12, 0.705);
+}
+
+input[type=text], input[type=email], input[type=number], input[type=dropdown], select, textarea {
+    width: 100%;
+    border: 2px solid rgb(167, 211, 185);
+    border-radius: 5px;
+
+  }
+
+  #dropdown{
+      padding: 5px;
+      margin: 5px;
+    
+  }
+  .label-checkbox{
+    margin: 10px 0px 0px 0px;
+  }
+  #textarea {
+    margin-top: 10px;
+    width: 100%;
+    text-transform: capitalize;
+  }
+  .button {
+    width: 29rem;
+    background-color: rgb(67, 165, 132);
+    border-radius: 20PX;
+    padding: 5PX;
+    margin-top: 10%;
+    font-size: 15px;
+  }
+  .button:hover {
+      background-color: rgb(158, 212, 194);
+  }
